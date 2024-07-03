@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Gaurab Services</title>
+    <style>
+         * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: darkslategrey;
+            font-family: Arial, sans-serif;
+        }
+        .nv {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+            background-color:lightblue;
+            width:100%;
+            height:20%;
+        }
+        .h {
+            display: flex;
+            align-items: center;
+        }
+        .h img {
+            height: 80px;
+            width: 80px;
+        }
+        .nv ul {
+            list-style: none;
+            display: flex;
+            margin-right: 4%;
+            padding: 0;
+        }
+        .nv ul li {
+            margin-left: 50px;
+        }
+        .nv ul li a {
+            text-decoration: none;
+            color:brown;
+            font-weight: 600;
+            font-size: 18px;  
+            margin-left: 20px; 
+        }
+        .nv ul li a:hover {
+            color:cadetblue;
+            font-weight: 600;
+        }
+        .cont{
+            display:flex;
+            margin-top:6%;
+            margin-left:4%;
+        }
+        .cont span {
+            width:100%;
+        }
+        .h1{
+            text-align: center;
+            color:cornflowerblue;
+            margin-top:3%;
+        }
+        .h2
+        {
+            color:blanchedalmond;
+            font-size:24px;
+        }
+        h2
+        {
+            color:cadetblue;
+            font-size:20px;
+        }
+        form input{
+            padding:2%;
+            width:100%;
+            margin-left:10%;
+            margin-top:10%;
+            height:40px;
+        }
+        textarea{
+            margin-top:10px;
+            margin-left:10%;
+        }
+        form{
+            margin-left:5%;
+            width:100%;
+            
+        }
+        /* button{
+            color:blanchedalmond;
+            background-color:green;
+            margin-left:50%;
+            padding:4%;
+            width:40%
+        } */
+
+    </style>
+</head>
+<body>
+    <nav class="nv">
+        <header class="h"><a href="../index.html"><img src="../image/logo.png" alt="Gau RaB"></a></header>
+        <ul>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="myteam.html">My Teams</a></li>
+            <li><a href="aboutme.html">About me</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section>
+            <h1 class="h1">Contact Us</h1>
+            <span class="cont">
+              <span>
+            <h1 class="h2" >The team is ready for your works. Lets collaborate.</h1>
+            <h2>We offer you services like Web Development, Video Editing and tuition Classes.</h2>
+              </span>  
+              <span>
+                <form action="" method="">
+                    <table>
+                        <tr>
+                            <th></th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <div>
+                            <td><label for="fn">First Name</label></td>
+                            <td><input type="text" name="fn" id="fn" placeholder="Enter your First Name"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                            <td><label for="ln">Last Name</label></td>
+                            <td><input type="text" name="ln" id="ln" placeholder="Enter your Last Name "></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                            <td><label for="em">Email </label></td>
+                            <td><input type="email" name="em" id="em" placeholder="Enter your email"></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                            <td><label for="fn">Message</label></td>
+                            <td><textarea rows="20" cols="30">Enter your Message...</textarea></td>
+                            </div>
+                        </tr>
+                        <tr>
+                            <div>
+                           <center> <td colspan="2"><button class="btn btn-primary" type="submit">Send Message</button></td>
+                        </tr>
+                    </table>
+                </form>
+              </span>
+            </span>
+        </section>
+    </main>
+</body>
+</html>
